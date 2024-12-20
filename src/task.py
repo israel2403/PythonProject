@@ -1,2 +1,10 @@
 # This is a comment
-print("Hello " + input("What is your name\n") + "!")
+name = input("What is your name\n")
+print("Hello " + name + "!")
+name="Angela"
+print(name)
+
+# print(len(input("What is your name?")))
+name = input("What is your name?")
+length = len(name)
+print( length)
